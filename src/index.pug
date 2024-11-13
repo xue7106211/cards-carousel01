@@ -1,0 +1,8 @@
+.cards
+	each card in ['warchief_thrall', 'king_magni_bronzebeard', 'lady_jaina_proudmoore', 'the_lich_king', 'spectral_tiger', 'sulfuras_hand_of_ragnaros', 'deathwing_the_destroyer']
+		.card
+			.image
+				img(src=`https://wow.tcgbrowser.com/images/cards/hd/${card}.jpg`)
+				.reflection(
+					style=`--image: url(https://wow.tcgbrowser.com/images/cards/hd/${card}.jpg)`
+				)
